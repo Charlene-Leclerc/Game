@@ -7,7 +7,19 @@
     <title>Vite App</title>
   </head>
   <body>
-    <div id="app"></div>
+    <h1>Jeux Pierre Feuille Ciseaux</h1>
+    <form id="game-form">
+        <label for="player-choice">Choisissez Pierre, Feuille ou Ciseaux :</label>
+        <select id="player-choice">
+            <option value="Pierre">Pierre</option>
+            <option value="Feuille">Feuille</option>
+            <option value="Ciseaux">Ciseaux</option>
+        </select>
+        <button type="submit">Jouer</button>
+    </form>
+    <div id="results">
+     
+    </div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
